@@ -8,6 +8,6 @@ public interface AuthService {
    AuthResponse loginUser(UserRequest userRequest);
 //    AuthResponse forgotPassword(String email);
 //    AuthResponse resetPassword(PasswordResetRequest request);
-//    AuthResponse logout(String jwtToken);
+    AuthResponse logout(String jwtToken);
 }
 
