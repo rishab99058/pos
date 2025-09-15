@@ -7,7 +7,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class UserResponse {
+public class UserResponse extends BaseResponse {
     @JsonProperty("user_details")
     private UserModel  user;
     @JsonProperty("user_list")
